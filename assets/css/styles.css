@@ -164,6 +164,18 @@ a {
     justify-content: space-between;
     align-items: center;
 }
+
+.brand-img a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 90px;
+    border-radius: 12px;
+}
+
+.brand-img a:hover{
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+}
 /* Guides */
 .guides {
     margin-top: 40px;
@@ -417,7 +429,7 @@ a {
     width: 239px;
     padding: 45px 22px 40px;
     border-radius: 0px 0px 12px 12px;
-    box-shadow: 2px 2px 4px 0px #e9e0e0;
+    /* box-shadow: 2px 2px 4px 0px #e9e0e0; */
 }
 
 .stats .icon{
@@ -602,6 +614,7 @@ a {
     height: 28px;
     border-radius: 3px;
     margin-right: 20px;
+    background-color: #F9F9F9;
 }
 
 .footer .social-link:hover{
