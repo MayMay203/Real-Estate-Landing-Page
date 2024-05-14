@@ -610,11 +610,14 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 28px;
-    height: 28px;
+    width: 30px;
+    height: 30px;
     border-radius: 3px;
-    margin-right: 20px;
     background-color: #F9F9F9;
+}
+
+.footer .social-link + .social-link{
+    margin-left: 16px;
 }
 
 .footer .social-link:hover{
