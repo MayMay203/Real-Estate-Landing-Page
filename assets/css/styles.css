@@ -317,8 +317,9 @@ a {
 
 .feature .list{
     margin-top: 70px;
-    display: flex;
-    /* padding: 20px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
 }
 
 .feature .thumb{
@@ -334,7 +335,6 @@ a {
 }
 
 .feature .item{
-    margin-right: 30px;
     background-color: #fff;
     border-radius: 12px;
 }
@@ -495,7 +495,6 @@ a {
     border-radius: 50%;
     background-color: var(--bg-color,#fff);
     color: #FFF;
-    text-align: center;
     font-size: 0.8rem;
     font-style: normal;
     font-weight: 450;
@@ -584,7 +583,7 @@ a {
 }
 
 .footer .row-top{
-    gap: 185px;
+    column-gap: 185px;
 }
 
 .footer .heading{
